@@ -1,0 +1,21 @@
+.team-members #content .big {
+  margin-bottom: 100px;
+  text-align: center;
+}
+.team-members #content .big p {
+  display: inline-block;
+  width: 60%;
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 36px;
+  color: #7e7e7e;
+}
+.team-members #content .team-member {
+  padding: 0;
+}
+.team-members #content .new-offer .container {
+  padding: 0 20px;
+}
+.team-members #content .new-offer .promo-box {
+  padding: 40px;
+}

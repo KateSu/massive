@@ -1,0 +1,78 @@
+@import 'basic.less';
+.sevice {
+    #header {
+        position: absolute;
+        width: 100%;
+    }
+    #content {
+        .header {
+            &.img-bg {
+                background-image: url('https://unsplash.it/1920/1080?image=275');
+                background-attachment: scroll;
+            }
+        }
+        .special-sevices {
+            img {
+                margin: auto;
+            }
+            .title,
+            .subtitle {
+                letter-spacing: 1px;
+            }
+            .title {
+                margin: 0;
+                color: @branding-color;
+                font-size: 16px;
+            }
+            .subtitle {
+                margin: 0;
+                color: #333333;
+                font-size: 18px;
+                font-weight: normal;
+                line-height: 1.5;
+                text-transform: uppercase;
+            }
+            p {
+                margin-top: 0;
+                margin-bottom: 30px;
+            }
+            .big-dot {
+                padding-bottom: 30px;
+                li {
+                    float: left;
+                    width: 50%;
+                    margin-bottom: 10px;
+                    line-height: 1.5;
+                    color: #323232;
+                    &::before {
+                        display: inline-block;
+                        margin-right: 10px;
+                        font-family: 'fontello';
+                        content: '\f10c';
+                        font-weight: normal;
+                        text-align: center;
+                        color: #757575;
+                    }
+                }
+            }
+        }
+        .special-offer {
+            padding: 60px 0;
+        }
+    }
+    .sevices {
+        .row {
+            > div {
+                padding: 50px;
+                transition: all .3s;
+                &:hover {
+                    background: #000000;
+                    color: #ffffff;
+                    i {
+                        color: @branding-color;
+                    }
+                }
+            }
+        }
+    }
+}

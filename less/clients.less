@@ -1,0 +1,98 @@
+@import 'basic.less';
+.our-clients {
+    #content {
+        .clients {
+            padding-bottom: 100px;
+            .row {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+            .client {
+                padding: 10px;
+                im {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+        .comments {
+            &.img-bg {
+                background-image: url('https://unsplash.it/1920/1080?image=765');
+                text-align: center;
+                color: white;
+            }
+            i {
+                display: inline-block;
+                margin-bottom: 30px;
+                color: @branding-color;
+                font-size: 60px;
+                line-height: 1.5;
+            }
+            p {
+                margin: 0 0 30px 0;
+                font-size: 16px;
+                font-style: italic;
+                color: white;
+            }
+            .client-data {
+                font-size: 14px;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+            }
+            .small {
+                font-size: 12px;
+            }
+        }
+        .feature {
+            text-align: center;
+            // features
+            .title {
+                margin: 0;
+                font-size: 18px;
+                color: #333333;
+                text-transform: uppercase;
+                font-weight: normal;
+            }
+            h4 {
+                padding-bottom: 50px;
+                letter-spacing: 2px;
+            }
+            h3 {
+                padding-bottom: 20px;
+                letter-spacing: 1px;
+            }
+            i {
+                display: block;
+                padding-bottom: 30px;
+                font-size: 36px;
+                line-height: 1;
+                color: #333333;
+            }
+            p {
+                margin: 0;
+                color: @gray-text;
+                line-height: 24px;
+            }
+            .promo {
+                display: inline-block;
+                width: 100%;
+                padding: 40px;
+                margin-bottom: 50px;
+                border-radius: 5px;
+                h3.title {
+                    padding: 0;
+                    margin: 0;
+                    color: @branding-color;
+                    font-size: 24px;
+                }
+                span {
+                    display: inline-block;
+                    width: 100%;
+                    margin-top: 10px;
+                    padding-bottom: 20px;
+                    color: @gray-text;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,90 @@
+.our-clients #content .clients {
+  padding-bottom: 100px;
+}
+.our-clients #content .clients .row {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.our-clients #content .clients .client {
+  padding: 10px;
+}
+.our-clients #content .clients .client im {
+  width: 100%;
+  height: auto;
+}
+.our-clients #content .comments.img-bg {
+  background-image: url('https://unsplash.it/1920/1080?image=765');
+  text-align: center;
+  color: white;
+}
+.our-clients #content .comments i {
+  display: inline-block;
+  margin-bottom: 30px;
+  color: #d6b161;
+  font-size: 60px;
+  line-height: 1.5;
+}
+.our-clients #content .comments p {
+  margin: 0 0 30px 0;
+  font-size: 16px;
+  font-style: italic;
+  color: white;
+}
+.our-clients #content .comments .client-data {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.our-clients #content .comments .small {
+  font-size: 12px;
+}
+.our-clients #content .feature {
+  text-align: center;
+}
+.our-clients #content .feature .title {
+  margin: 0;
+  font-size: 18px;
+  color: #333333;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.our-clients #content .feature h4 {
+  padding-bottom: 50px;
+  letter-spacing: 2px;
+}
+.our-clients #content .feature h3 {
+  padding-bottom: 20px;
+  letter-spacing: 1px;
+}
+.our-clients #content .feature i {
+  display: block;
+  padding-bottom: 30px;
+  font-size: 36px;
+  line-height: 1;
+  color: #333333;
+}
+.our-clients #content .feature p {
+  margin: 0;
+  color: #7e7e7e;
+  line-height: 24px;
+}
+.our-clients #content .feature .promo {
+  display: inline-block;
+  width: 100%;
+  padding: 40px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+}
+.our-clients #content .feature .promo h3.title {
+  padding: 0;
+  margin: 0;
+  color: #d6b161;
+  font-size: 24px;
+}
+.our-clients #content .feature .promo span {
+  display: inline-block;
+  width: 100%;
+  margin-top: 10px;
+  padding-bottom: 20px;
+  color: #7e7e7e;
+}
